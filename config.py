@@ -51,7 +51,8 @@ LOGS_DIR = "logs"
 MODEL_PATH = f"{MODELS_DIR}/lstm_forex_model.keras"
 SCALER_X_PATH = f"{MODELS_DIR}/scaler_x.pkl"
 SCALER_Y_PATH = f"{MODELS_DIR}/scaler_y.pkl"
-HISTORY_FILE = f"{LOGS_DIR}/prediction_history.csv"
+# Lingkungan serverless Vercel hanya bisa menulis ke direktori /tmp
+HISTORY_FILE = "/tmp/prediction_history.csv"
 
 # -- Konfigurasi API Sentimen --
 FEAR_GREED_API_URL = 'https://api.alternative.me/fng/?limit=90'
@@ -67,4 +68,5 @@ MIN_CONFIDENCE = 60.0
 MAX_CONFIDENCE = 90.0
 ACCURACY_LOOKBACK = 50
 PERFORMANCE_THRESHOLD = 0.5
+
 
