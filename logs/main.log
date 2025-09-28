@@ -1,0 +1,72 @@
+2025-09-28 08:32:47,827 - INFO - ===== Memulai Siklus Prediksi pada 2025-09-28 08:32:47 =====
+2025-09-28 08:32:47,827 - INFO - File histori tidak ditemukan. Menggunakan confidence threshold default.
+2025-09-28 08:32:47,828 - INFO - Memproses prediksi untuk XAU/USD...
+2025-09-28 08:32:48,824 - INFO - Berhasil mengambil 500 baris data untuk XAU/USD dari Twelve Data.
+2025-09-28 08:32:50,012 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:32:50,691 - INFO - Prediksi untuk XAU/USD: Tren Naik dengan confidence 99.0%
+2025-09-28 08:32:50,692 - INFO - Memproses prediksi untuk EUR/USD...
+2025-09-28 08:32:51,485 - INFO - Berhasil mengambil 500 baris data untuk EUR/USD dari Twelve Data.
+2025-09-28 08:32:52,681 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:32:53,019 - INFO - Prediksi untuk EUR/USD: Tren Naik dengan confidence 99.0%
+2025-09-28 08:32:53,019 - INFO - Memproses prediksi untuk USD/JPY...
+2025-09-28 08:32:53,812 - INFO - Berhasil mengambil 500 baris data untuk USD/JPY dari Twelve Data.
+2025-09-28 08:32:54,995 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:32:55,331 - INFO - Prediksi untuk USD/JPY: Tren Naik dengan confidence 99.0%
+2025-09-28 08:32:55,331 - INFO - Memproses prediksi untuk GBP/USD...
+2025-09-28 08:32:56,111 - INFO - Berhasil mengambil 500 baris data untuk GBP/USD dari Twelve Data.
+2025-09-28 08:32:57,284 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:32:57,644 - INFO - Prediksi untuk GBP/USD: Tren Naik dengan confidence 99.0%
+2025-09-28 08:32:57,645 - INFO - Memproses prediksi untuk GBP/JPY...
+2025-09-28 08:32:58,436 - INFO - Berhasil mengambil 500 baris data untuk GBP/JPY dari Twelve Data.
+2025-09-28 08:32:59,624 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:32:59,939 - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001AD6BF6F380> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-09-28 08:32:59,969 - INFO - Prediksi untuk GBP/JPY: Tren Naik dengan confidence 99.0%
+2025-09-28 08:32:59,970 - INFO - Memproses prediksi untuk AUD/USD...
+2025-09-28 08:33:00,781 - INFO - Berhasil mengambil 500 baris data untuk AUD/USD dari Twelve Data.
+2025-09-28 08:33:02,863 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:33:03,183 - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000001AD6BF453A0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-09-28 08:33:03,211 - INFO - Prediksi untuk AUD/USD: Tren Naik dengan confidence 99.0%
+2025-09-28 08:33:03,211 - INFO - Memproses prediksi untuk USD/CHF...
+2025-09-28 08:33:04,002 - INFO - Berhasil mengambil 500 baris data untuk USD/CHF dari Twelve Data.
+2025-09-28 08:33:05,189 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:33:05,543 - INFO - Prediksi untuk USD/CHF: Tren Naik dengan confidence 99.0%
+2025-09-28 08:33:06,801 - INFO - Pesan berhasil dikirim ke Telegram.
+2025-09-28 08:33:06,803 - INFO - Notifikasi berhasil dikirim untuk 7 sinyal.
+2025-09-28 08:33:06,810 - INFO - Histori prediksi berhasil diperbarui dengan 7 data baru.
+2025-09-28 08:33:06,810 - INFO - ===== Siklus Prediksi Selesai =====
+2025-09-28 08:46:10,641 - INFO - ===== Memulai Siklus Prediksi pada 2025-09-28 08:46:10 =====
+2025-09-28 08:46:10,662 - INFO - Data histori tidak cukup untuk analisis. Menggunakan threshold default.
+2025-09-28 08:46:10,662 - INFO - Memproses prediksi untuk XAU/USD...
+2025-09-28 08:46:11,647 - INFO - Berhasil mengambil 500 baris data untuk XAU/USD dari Twelve Data.
+2025-09-28 08:46:12,851 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:46:13,533 - INFO - Prediksi untuk XAU/USD: Tren Naik dengan confidence 99.0%
+2025-09-28 08:46:13,534 - INFO - Memproses prediksi untuk EUR/USD...
+2025-09-28 08:46:14,324 - INFO - Berhasil mengambil 500 baris data untuk EUR/USD dari Twelve Data.
+2025-09-28 08:46:15,574 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:46:15,928 - INFO - Prediksi untuk EUR/USD: Tren Naik dengan confidence 99.0%
+2025-09-28 08:46:15,929 - INFO - Memproses prediksi untuk USD/JPY...
+2025-09-28 08:46:16,744 - INFO - Berhasil mengambil 500 baris data untuk USD/JPY dari Twelve Data.
+2025-09-28 08:46:17,940 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:46:18,275 - INFO - Prediksi untuk USD/JPY: Tren Naik dengan confidence 99.0%
+2025-09-28 08:46:18,276 - INFO - Memproses prediksi untuk GBP/USD...
+2025-09-28 08:46:19,049 - INFO - Berhasil mengambil 500 baris data untuk GBP/USD dari Twelve Data.
+2025-09-28 08:46:20,224 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:46:20,565 - INFO - Prediksi untuk GBP/USD: Tren Naik dengan confidence 99.0%
+2025-09-28 08:46:20,566 - INFO - Memproses prediksi untuk GBP/JPY...
+2025-09-28 08:46:21,357 - INFO - Berhasil mengambil 500 baris data untuk GBP/JPY dari Twelve Data.
+2025-09-28 08:46:22,534 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:46:22,846 - WARNING - 5 out of the last 5 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002915D54C7C0> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-09-28 08:46:22,872 - INFO - Prediksi untuk GBP/JPY: Tren Naik dengan confidence 99.0%
+2025-09-28 08:46:22,873 - INFO - Memproses prediksi untuk AUD/USD...
+2025-09-28 08:46:23,676 - INFO - Berhasil mengambil 500 baris data untuk AUD/USD dari Twelve Data.
+2025-09-28 08:46:24,856 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:46:25,185 - WARNING - 6 out of the last 6 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x000002915EB6F380> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-09-28 08:46:25,218 - INFO - Prediksi untuk AUD/USD: Tren Naik dengan confidence 99.0%
+2025-09-28 08:46:25,218 - INFO - Memproses prediksi untuk USD/CHF...
+2025-09-28 08:46:26,010 - INFO - Berhasil mengambil 500 baris data untuk USD/CHF dari Twelve Data.
+2025-09-28 08:46:27,191 - INFO - Berhasil mengambil 90 data sentimen historis.
+2025-09-28 08:46:27,536 - INFO - Prediksi untuk USD/CHF: Tren Naik dengan confidence 99.0%
+2025-09-28 08:46:28,791 - INFO - Pesan berhasil dikirim ke Telegram.
+2025-09-28 08:46:28,794 - INFO - Notifikasi berhasil dikirim untuk 7 sinyal.
+2025-09-28 08:46:28,800 - INFO - Histori prediksi berhasil diperbarui dengan 7 data baru.
+2025-09-28 08:46:28,800 - INFO - ===== Siklus Prediksi Selesai =====

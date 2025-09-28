@@ -1,0 +1,8 @@
+pandas
+pandas-ta
+yfinance
+requests
+tensorflow
+scikit-learn
+joblib
+pytz
