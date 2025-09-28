@@ -1,13 +1,5 @@
 {
-    "version": 2,
     "builds": [
-        {
-            "src": "requirements.txt",
-            "use": "@vercel/static-build",
-            "config": {
-                "distDir": "static_build_output"
-            }
-        },
         {
             "src": "api/run_prediction.py",
             "use": "@vercel/python"
