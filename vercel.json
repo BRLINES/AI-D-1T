@@ -16,7 +16,25 @@
     "crons": [
         {
             "path": "/api/run_prediction",
-            "schedule": "0 */2 * * *"
+            "schedule": "0 8 * * *"
         }
     ]
 }
+```
+
+### Penjelasan Perubahan
+
+* Jadwal lama: `"schedule": "0 */2 * * *"` (Setiap 2 jam)
+* **Jadwal baru**: `"schedule": "0 8 * * *"` (Jalankan **sekali sehari pada jam 8 pagi UTC**)
+
+### Langkah Selanjutnya
+
+1.  **Ganti** seluruh isi file `vercel.json` Anda dengan kode yang baru di atas.
+2.  **Simpan** filenya.
+3.  Lakukan `commit` dan `push` perubahan ini ke repositori GitHub Anda:
+    ```bash
+    git add vercel.json
+    git commit -m "Fix: Update cron schedule for Vercel Hobby plan"
+    git push
+    
+
